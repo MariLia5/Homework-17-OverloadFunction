@@ -44,11 +44,11 @@ int main() {
 
     // Инициализация матрицы с помощью char
     
-    char matrix2[3][3]{ 'h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l' };
-    int const size2 = 3;
+    char charMatrix[100][100];
+    int const size2 = 5;
     std::cout << "Инициализация матрицы с помощью char:\n";
-    printMatrixChar(matrix2, size2);
-
+    MatrixChar(charMatrix, size2);
+    printMatrixChar(charMatrix, size2, 'A');
 
     return 0;
 }

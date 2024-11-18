@@ -16,7 +16,7 @@ void doubleMatrix(double matrix[][100], double size) {
 void printMatrixDouble(double matrix[][100], double size) {
     for (int i = 0; i < size; ++i) {
         for (int j = 0; j < size; ++j) {
-            std::cout << std::setw(6) << matrix[i][j] << " ";
+            std::cout << std::setw(10) << matrix[i][j] << " ";
         }
         std::cout << std::endl;
     }

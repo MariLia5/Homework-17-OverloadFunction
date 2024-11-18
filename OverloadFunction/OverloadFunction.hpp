@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <random>
 
+
 void intMatrix(int matrix[][100], int size);
 void printMatrixInt(int matrix[][100], int size);
 void findMinMaxDiagonalInt(int matrix[][100], int size, int& max, int& min);
@@ -15,4 +16,5 @@ void findMinMaxDiagonalDouble(double matrix[][100], double size, double& max, do
 void sortDouble(double matrix[][100], double size);
 
 //void charMatrix(char matrix[][100], int size);
-void printMatrixChar(char matrix[][3], int size);
+void MatrixChar(char matrix[][100], int size);
+void printMatrixChar(char matrix[][100], int size, int value);
